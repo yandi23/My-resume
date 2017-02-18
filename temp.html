@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <style>
+        h4,
+        p {
+            padding: 0;
+            margin: 0;
+        }
+
+        .wrap {
+            position: absolute;
+            left: 0;
+            top: 0;
+            bottom: 0;
+            right: 0;
+            margin: auto;
+            width: 80%;
+            height: 90%;
+            overflow: hidden;
+            border-radius: 6px;
+            border: 1px solid #ccc;
+        }
+
+        .projectInfoName,
+        .projectInfoRole,
+        .projectInfoDesc,
+        .projectInfoAnalysis {
+            width: 100%;
+        }
+
+        .projectInfoName h4,
+        .projectInfoRole h4,
+        .projectInfoDesc h4,
+        .projectInfoAnalysis h4 {
+            width: 100%;
+            height: 40px;
+            text-indent: 10px;
+            display: inline-block;
+            background-color: #F1F1F1;
+        }
+
+        .projectInfoName h4 span,
+        .projectInfoRole h4 span,
+        .projectInfoDesc h4 span,
+        .projectInfoAnalysis h4 span {
+            font-size: 20px;
+            margin: 8px 0;
+            height: 24px;
+            line-height: 24px;
+            display: inline-block;
+            border-left: 4px solid limegreen;
+        }
+
+        .projectInfoName p,
+        .projectInfoRole p,
+        .projectInfoDesc p,
+        .projectInfoAnalysis p {
+            padding: 8px 10px;
+            font-size: 22px;
+            background-color: #fbfbfb;
+        }
+
+        .closeBtn {
+            padding: 2px 6px;
+            height: 32px;
+            width: 60px;
+            border-radius: 4px;
+            background-color: limegreen;
+            line-height: 36px;
+            color: #fff;
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+<div class='wrap'>
+    <div class="projectInfoName">
+        <h4><span>项目名称</span></h4>
+        <p>岛上书店</p>
+    </div>
+    <div class="projectInfoRole">
+        <h4><span>项目角色</span></h4>
+        <p>设计/前端/后台</p>
+    </div>
+    <div class="projectInfoDesc">
+        <h4><span>项目描述</span></h4>
+        <p>一个图书交换的网站,功能:用户注册/登录,查看图书/添加图书/编辑图书/删除图书/书籍评论等
+        </p>
+    </div>
+    <div class="projectInfoAnalysis">
+        <h4><span>项目分析</span></h4>
+        <p>
+        <p>前端</p>
+        <ul>
+            <li>bootstrap</li>
+            <li>angular</li>
+        </ul>
+        <p>后台</p>
+        <ul>
+            <li>express</li>
+        </ul>
+        </p>
+    </div>
+    <div class='closeBtn'>关闭</div>
+</div>
+</body>
+
+</html>
