@@ -32,18 +32,18 @@ let mySwiper = new Swiper('.swiper-container', {
     }
 });
 let music = document.querySelector(".music");
-let beyond = document.querySelector("#beyond");
+let river = document.querySelector("#river");
 window.setTimeout(function () {
-    beyond.play();
+    river.play();
     music.style.opacity = 1;
     music.className = "music musicMove";
 }, 1000);
 music.addEventListener("click", function () {
-    if (beyond.paused) {
-        beyond.play();
+    if (river.paused) {
+        river.play();
         music.className = "music musicMove";
     } else {
-        beyond.pause();
+        river.pause();
         music.className = "music";
     }
 }, false);
